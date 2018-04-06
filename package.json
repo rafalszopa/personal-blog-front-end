@@ -1,0 +1,27 @@
+{
+  "name": "personal-blog-front-end",
+  "version": "1.0.0",
+  "description": "Front end of personal blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafalszopa/personal-blog-front-end.git"
+  },
+  "author": "Rafal Szopa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafalszopa/personal-blog-front-end/issues"
+  },
+  "homepage": "https://github.com/rafalszopa/personal-blog-front-end#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.5"
+  }
+}
