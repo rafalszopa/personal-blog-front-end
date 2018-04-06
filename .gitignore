@@ -38,6 +38,7 @@ jspm_packages/
 
 # Dist directory
 dist/
+src/css
 
 # TypeScript v1 declaration files
 typings/
