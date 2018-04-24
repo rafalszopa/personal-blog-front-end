@@ -1,10 +1,12 @@
 // SIMPLE GRID - SASS/SCSS
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+// Move it to separate file: fonts.css
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
 // fonts
-$font-family: 'Lato', Helvetica, sans-serif;
+$font-family: 'Roboto', sans-serif;
 $font-weight-light: 300;
+$font-weight-medium: 400;
 $font-weight-regular: 400;
 $font-weight-heavy: 700;
 $font-height: 1.5;
@@ -118,8 +120,9 @@ $breakpoint-large: 60em; // 960px
   }
 
   @media only screen and (min-width: $breakpoint-large) {
-    width: 75%;
-    max-width: 60rem;
+    // width: 75%;
+    width: 1170px;
+    // max-width: 60rem;
   }
 }
 
