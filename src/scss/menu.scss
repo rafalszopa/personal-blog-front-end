@@ -40,13 +40,14 @@ $navbar-height: 76px;
             & ~ .menu-content {
                 opacity: 1;
                 visibility: visible;
-                transition: all 1s ease;
-                transition-delay: 0.2s;
+                height: 100vh;
+                transition: all 0.5s ease;
+                transition-delay: 0.5s;
             }
         }
 
         .overlay {
-            transition: all 0.5s ease-in-out;
+            transition: all 0.8s ease-in-out;
             position: fixed;
             opacity: 1;
             visibility: hidden;
@@ -59,7 +60,7 @@ $navbar-height: 76px;
         .menu-content {
             visibility: hidden;
             opacity: 0;
-            height: 100vh;
+            height: 0;
             display: flex;
             flex-direction: column;
             justify-content: center;
