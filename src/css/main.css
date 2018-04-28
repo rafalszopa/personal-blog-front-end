@@ -7,3 +7,19 @@ body, div {
 
 img {
   max-width: 100%; }
+
+ul {
+  list-style-type: none;
+  padding: 0; }
+
+li {
+  color: #18dd9f;
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 30px; }
+
+li:before {
+  content: '#';
+  display: inline;
+  margin-right: 35px;
+  color: #e2e2e2; }

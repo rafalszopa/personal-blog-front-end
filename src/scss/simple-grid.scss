@@ -114,8 +114,6 @@ $container-width--large: 775px;
 $wider-content-width--large: 50px;
 
 .wider-content {
-  // margin-left: calc(-100vw / 2 + #{$container-width--large} + #{$wider-content-width--large} / 2);
-  // margin-right: calc(-100vw / 2 + #{$container-width--large} + #{$wider-content-width--large} / 2);
   margin-left: calc(-100vw * 0.07);
   margin-right: calc(-100vw * 0.07);
   overflow: hidden;
