@@ -1,0 +1,39 @@
+// Move it to separate file: fonts.css
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+// fonts
+$font-family: 'Roboto', sans-serif;
+$font-weight-light: 300;
+$font-weight-medium: 400;
+$font-weight-regular: 400;
+$font-weight-heavy: 700;
+$font-height: 35px;
+
+* {
+    font-family: $font-family;
+}
+
+p {
+    font-size: 16px;
+    font-weight: $font-weight-light;
+    line-height: $font-height;
+    color: #a5a5a5;
+}
+
+.page__header {
+    font-size: 72px;
+    color: #f2f2f2;
+    position: fixed;
+    transform: translateX(-400px);
+}
+
+.page__title {
+    font-size: 30px;
+    font-weight: $font-weight-regular;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.page__title--bold {
+    font-weight: $font-weight-heavy;
+}

@@ -1,7 +1,10 @@
+// TO DO: Rework all these classes according to the BEM naming convention
+
 $navbar-height: 76px;
 
 .navbar {
     background: url('../images/background.png');
+    // background: linear-gradient(90deg, #9970e8, #ec80ad);
     position: fixed;
     top: 0;
     width: 100%;
@@ -88,6 +91,7 @@ $navbar-height: 76px;
                 text-align: center;
                 padding: 0;
 
+                // TO DO: Add transition-deley to consecutive li elements
                 li {
                     margin-bottom: 10px;
                 }
@@ -96,6 +100,7 @@ $navbar-height: 76px;
             a {
                 color: white;
                 font-size: 4vh;
+                line-height: 8vh;
                 text-decoration: none;
                 display: inline-block;
 
