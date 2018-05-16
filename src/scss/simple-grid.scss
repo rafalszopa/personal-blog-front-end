@@ -138,8 +138,11 @@ $wider-content-width--large: 50px;
   }
 }
 
-.container--full {
+.container--wider {
+  width: 1000px;
+}
 
+.container--full {
   width: 90%;
 }
 
