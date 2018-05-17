@@ -426,3 +426,33 @@ input {
   max-width: 1000px;
   width: 100%;
   margin: 100px auto 100px auto; }
+
+p {
+  color: #a3a3a3; }
+
+.article__container {
+  width: 775px;
+  margin: 0 auto 0 auto;
+  padding: 0 20px 0 20px; }
+
+.article__title {
+  font-size: 40px;
+  font-weight: normal; }
+
+.article__image {
+  width: calc(100% + 50px);
+  background: #f1f1f1;
+  padding-top: 50%;
+  margin-left: -50px;
+  box-shadow: 0px 0px 48px 0px #c7c7c7; }
+
+.article__paragraph {
+  margin-bottom: 50px; }
+
+.article__header {
+  background: #f1f1f1;
+  padding-top: 15%;
+  background: url(../images/notebook.jpg);
+  background-size: cover;
+  background-position-y: -266px;
+  background-attachment: fixed; }
