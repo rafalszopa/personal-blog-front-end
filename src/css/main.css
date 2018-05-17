@@ -421,3 +421,8 @@ input {
 .latest-post {
   flex: 0 1 50%;
   background: springgreen; }
+
+.wall {
+  max-width: 1000px;
+  width: 100%;
+  margin: 100px auto 100px auto; }
